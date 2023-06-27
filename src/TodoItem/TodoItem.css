@@ -1,0 +1,34 @@
+li{
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid #85858550;
+    border-radius: 0.2rem;
+    margin-bottom: 0.4rem;
+    padding: 0.4rem;
+    justify-content: space-between;
+    background-color: #cececead;
+    box-shadow: #00000041 0.1rem 0.1rem 0.1rem 0.1rem ;
+}
+
+.selector-TODO-done{
+    display: flex;
+    align-items: center;
+}
+
+.selector-TODO-done h4{
+    margin-left: 0.7rem;
+    font-size: 1rem;
+}
+
+.check-list{
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.check-p-completed{
+    text-decoration: line-through;
+}

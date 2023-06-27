@@ -1,0 +1,12 @@
+.modal-container{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(32, 35, 41,.8); 
+}

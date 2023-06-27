@@ -1,0 +1,21 @@
+.Icon-container{
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Icon-svg{
+    width: 9rem;
+    height: 2rem;
+}
+
+.Icon-container-delete:hover .Icon-svg{
+    fill: rgb(161, 0, 0); 
+}
+
+.Icon-container-check:hover .Icon-svg{
+    fill: green; 
+}
